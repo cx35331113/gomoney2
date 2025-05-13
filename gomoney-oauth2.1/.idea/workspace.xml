@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5175909-4056-4965-9a08-334d2d88fd87" name="Changes" comment="springboot3.4.5更新">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomoney-biz/gomoney-biz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomoney-core/gomeny-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomoney-gateway/gomoney-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomoney-oauth2/gomoney-oauth2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gomoney.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-01-10-info.1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-01-10-info.2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-02-07-info.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-02-09-info.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-03-13-info.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-29-info.1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-30-info.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-05-12-info.0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mac怎么使用命令安装python3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gomoney-core/src/main/java/com/cloud/oauth/gomoney/core/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/gomoney-core/src/main/java/com/cloud/oauth/gomoney/core/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gomoney-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gomoney-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2hiWGUBCRGMtsZxp2l31oyo3dpp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.GatewayApplication.executor": "Debug",
+    "Application.Main.executor": "Debug",
+    "Application.SimpleLinearRegression.executor": "Debug",
+    "Maven.gomoney [clean].executor": "Run",
+    "Maven.gomoney-ai [clean].executor": "Run",
+    "Maven.gomoney-api [clean].executor": "Run",
+    "Maven.gomoney-biz [clean].executor": "Run",
+    "Maven.gomoney-oauth2 [clean].executor": "Run",
+    "Maven.gomoney_swagger [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AIApplication.executor": "Debug",
+    "Spring Boot.BizApplication.executor": "Debug",
+    "Spring Boot.GatewayApplication (1).executor": "Debug",
+    "Spring Boot.GatewayApplication.executor": "Debug",
+    "Spring Boot.MonitorApplication.executor": "Debug",
+    "Spring Boot.OAuthApplication (1).executor": "Debug",
+    "Spring Boot.OAuthApplication.executor": "Debug",
+    "Spring Boot.PurchaseApplication.executor": "Debug",
+    "Spring Boot.PurchaseApplication34.executor": "Debug",
+    "Spring Boot.PurchaseApplication56.executor": "Debug",
+    "Spring Boot.PurchaseApplication7.executor": "Debug",
+    "Spring Boot.WorkFlowApplication.executor": "Debug",
+    "data.sources.detected.do.not.suggest.again": "true",
+    "database.data.extractors.current.export.id": "SQL-Insert-Multirow.sql.groovy",
+    "database.data.extractors.current.id": "SQL-Insert-Multirow.sql.groovy",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/chenxiang/IdeaProjects/gomoney-oauth2.1/gomoney-security/src/main/java/com/cloud/oauth/gomoney/security/service/impl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15108451",
+    "project.structure.side.proportion": "0.57103825",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gomoney-security/src/main/java/com/cloud/oauth/gomoney/security/service/impl" />
+      <recent name="$PROJECT_DIR$/gomoney-security/src/main/java/com/cloud/oauth/gomoney/security/service" />
+      <recent name="$PROJECT_DIR$/gomoney_swagger/src/main/java/com/cloud/oauth/swagger/config" />
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$/gomoney-ai/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.oauth.gomoney.security.utils" />
+      <recent name="com.cloud.oauth.gomoney.oauth.common.log" />
+      <recent name="com.cloud.oauth.gomoney.biz.common.log" />
+      <recent name="com.cloud.oauth.gomoney.ai.config" />
+      <recent name="com.cloud.oauth.gomoney.biz.aspect" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="gomoney-oauth2.1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="gomoney-oauth2.1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AIApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-ai" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.ai.AIApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AIApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-ai" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.ai.AIApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.ai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.biz.BizApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.biz.BizApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gomoney-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.monitor.MonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gomoney-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.monitor.MonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.OAuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gomoney-oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.oauth.gomoney.OAuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.oauth.gomoney.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MonitorApplication" />
+      <item itemvalue="Spring Boot.AIApplication" />
+      <item itemvalue="Spring Boot.BizApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.OAuthApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BizApplication" />
+        <item itemvalue="Spring Boot.OAuthApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.AIApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5175909-4056-4965-9a08-334d2d88fd87" name="Changes" comment="" />
+      <created>1718077290551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718077290551</updated>
+      <workItem from="1718077291930" duration="1347000" />
+      <workItem from="1718082857224" duration="1318000" />
+      <workItem from="1718084181602" duration="603000" />
+      <workItem from="1718104943998" duration="684000" />
+      <workItem from="1718109561628" duration="68000" />
+      <workItem from="1718110112578" duration="34000" />
+      <workItem from="1718110360433" duration="8000" />
+      <workItem from="1718110406679" duration="92000" />
+      <workItem from="1718110516352" duration="7000" />
+      <workItem from="1718111716881" duration="611000" />
+      <workItem from="1718152503515" duration="9783000" />
+      <workItem from="1718163250060" duration="7751000" />
+      <workItem from="1718177528535" duration="4996000" />
+      <workItem from="1718187195791" duration="1000" />
+      <workItem from="1718187276458" duration="1000" />
+      <workItem from="1718187886245" duration="53000" />
+      <workItem from="1718238801755" duration="13360000" />
+      <workItem from="1718325052121" duration="10289000" />
+      <workItem from="1718364898410" duration="609000" />
+      <workItem from="1718584725281" duration="9744000" />
+      <workItem from="1718614245845" duration="13680000" />
+      <workItem from="1718757701644" duration="23798000" />
+      <workItem from="1718874095252" duration="4104000" />
+      <workItem from="1718941272773" duration="2589000" />
+      <workItem from="1719924793682" duration="600000" />
+      <workItem from="1720063118551" duration="15186000" />
+      <workItem from="1720666979057" duration="2667000" />
+      <workItem from="1720841734695" duration="30000" />
+      <workItem from="1720841813525" duration="712000" />
+      <workItem from="1720867442480" duration="2410000" />
+      <workItem from="1721033277229" duration="98000" />
+      <workItem from="1721033390393" duration="112000" />
+      <workItem from="1721113480585" duration="18223000" />
+      <workItem from="1721636375479" duration="10952000" />
+      <workItem from="1721803786731" duration="22539000" />
+      <workItem from="1722000979716" duration="4276000" />
+      <workItem from="1722034670398" duration="767000" />
+      <workItem from="1722035841936" duration="932000" />
+      <workItem from="1722045630176" duration="40178000" />
+      <workItem from="1722337943777" duration="1605000" />
+      <workItem from="1722386836384" duration="29819000" />
+      <workItem from="1722496661971" duration="2000" />
+      <workItem from="1722496773467" duration="21144000" />
+      <workItem from="1722596339583" duration="815000" />
+      <workItem from="1722652808968" duration="8418000" />
+      <workItem from="1723084317947" duration="8000" />
+      <workItem from="1723084357783" duration="31000" />
+      <workItem from="1723507494534" duration="57000" />
+      <workItem from="1723507558796" duration="50000" />
+      <workItem from="1723508282278" duration="18000" />
+      <workItem from="1723508314337" duration="264000" />
+      <workItem from="1723508584101" duration="44000" />
+      <workItem from="1723508674490" duration="32000" />
+      <workItem from="1723508869168" duration="49000" />
+      <workItem from="1723508927283" duration="1214000" />
+      <workItem from="1723516623133" duration="26000" />
+      <workItem from="1723519625375" duration="12043000" />
+      <workItem from="1723899358036" duration="69000" />
+      <workItem from="1724075017141" duration="1234000" />
+      <workItem from="1724552987987" duration="771000" />
+      <workItem from="1724559293575" duration="6352000" />
+      <workItem from="1724845235051" duration="975000" />
+      <workItem from="1724849153285" duration="140000" />
+      <workItem from="1724849457307" duration="8598000" />
+      <workItem from="1724899536064" duration="108000" />
+      <workItem from="1724899662446" duration="1855000" />
+      <workItem from="1725420068748" duration="32801000" />
+      <workItem from="1727328454102" duration="14384000" />
+      <workItem from="1728294364341" duration="18822000" />
+      <workItem from="1728714335773" duration="27416000" />
+      <workItem from="1730424408776" duration="872000" />
+      <workItem from="1730425580052" duration="10646000" />
+      <workItem from="1732166448898" duration="38111000" />
+      <workItem from="1734165096800" duration="7601000" />
+      <workItem from="1734489969542" duration="19414000" />
+      <workItem from="1734616796680" duration="17696000" />
+      <workItem from="1735282198660" duration="26324000" />
+      <workItem from="1735991706872" duration="964000" />
+      <workItem from="1736167277377" duration="25791000" />
+      <workItem from="1737034940829" duration="5069000" />
+      <workItem from="1738631159734" duration="24953000" />
+      <workItem from="1739616129759" duration="7241000" />
+      <workItem from="1739632738384" duration="4435000" />
+      <workItem from="1739855897250" duration="23788000" />
+      <workItem from="1740628874489" duration="5254000" />
+      <workItem from="1740801508354" duration="1163000" />
+      <workItem from="1740833284296" duration="2721000" />
+      <workItem from="1741093056273" duration="3991000" />
+      <workItem from="1741356418628" duration="1218000" />
+      <workItem from="1741359901856" duration="31574000" />
+      <workItem from="1741903797839" duration="11167000" />
+      <workItem from="1742196899783" duration="24352000" />
+      <workItem from="1742534483848" duration="17061000" />
+      <workItem from="1742800460146" duration="13521000" />
+      <workItem from="1743061141346" duration="2049000" />
+      <workItem from="1743123170200" duration="2612000" />
+      <workItem from="1743671484978" duration="7791000" />
+      <workItem from="1744014174272" duration="644000" />
+      <workItem from="1744165714736" duration="2257000" />
+      <workItem from="1744180323532" duration="586000" />
+      <workItem from="1744181379276" duration="575000" />
+      <workItem from="1744255496487" duration="3537000" />
+      <workItem from="1744329213879" duration="9000" />
+      <workItem from="1744331264763" duration="561000" />
+      <workItem from="1744331861662" duration="1485000" />
+      <workItem from="1744675322516" duration="711000" />
+      <workItem from="1744770567945" duration="5935000" />
+      <workItem from="1744849782038" duration="4804000" />
+      <workItem from="1745198291864" duration="16474000" />
+      <workItem from="1745300831819" duration="840000" />
+      <workItem from="1745302121908" duration="29228000" />
+      <workItem from="1745551247168" duration="11312000" />
+      <workItem from="1745714289119" duration="299000" />
+      <workItem from="1745714837542" duration="599000" />
+      <workItem from="1745716705011" duration="499000" />
+      <workItem from="1745717592501" duration="2652000" />
+      <workItem from="1745720824571" duration="4974000" />
+      <workItem from="1745732553970" duration="20000" />
+      <workItem from="1745732660899" duration="6749000" />
+      <workItem from="1745744554591" duration="893000" />
+      <workItem from="1745799190279" duration="647000" />
+      <workItem from="1745800601751" duration="3292000" />
+      <workItem from="1745806460897" duration="385000" />
+      <workItem from="1745806857664" duration="11355000" />
+      <workItem from="1745886814524" duration="3093000" />
+      <workItem from="1745892294675" duration="5396000" />
+      <workItem from="1745906455401" duration="787000" />
+      <workItem from="1745907249627" duration="4236000" />
+      <workItem from="1745917012698" duration="618000" />
+      <workItem from="1745931439284" duration="3007000" />
+      <workItem from="1745975532662" duration="2282000" />
+      <workItem from="1745980711323" duration="2883000" />
+      <workItem from="1746491524765" duration="11617000" />
+      <workItem from="1746581834243" duration="1241000" />
+      <workItem from="1746584782774" duration="12533000" />
+      <workItem from="1746759151388" duration="2833000" />
+      <workItem from="1746837196165" duration="4917000" />
+      <workItem from="1747017500604" duration="309000" />
+      <workItem from="1747017886492" duration="688000" />
+      <workItem from="1747020393769" duration="19000" />
+      <workItem from="1747029139416" duration="1238000" />
+      <workItem from="1747039273308" duration="1970000" />
+      <workItem from="1747094885143" duration="682000" />
+      <workItem from="1747098376106" duration="2679000" />
+      <workItem from="1747104566193" duration="2078000" />
+    </task>
+    <task id="LOCAL-00020" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722481382832</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722481382832</updated>
+    </task>
+    <task id="LOCAL-00021" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722481486185</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1722481486185</updated>
+    </task>
+    <task id="LOCAL-00022" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722483151436</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722483151436</updated>
+    </task>
+    <task id="LOCAL-00023" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722491998304</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722491998304</updated>
+    </task>
+    <task id="LOCAL-00024" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722495208582</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722495208582</updated>
+    </task>
+    <task id="LOCAL-00025" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722495231085</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722495231085</updated>
+    </task>
+    <task id="LOCAL-00026" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722495285026</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722495285026</updated>
+    </task>
+    <task id="LOCAL-00027" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722495292817</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722495292817</updated>
+    </task>
+    <task id="LOCAL-00028" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722495355539</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722495355539</updated>
+    </task>
+    <task id="LOCAL-00029" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722495794243</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1722495794243</updated>
+    </task>
+    <task id="LOCAL-00030" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722500630442</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722500630442</updated>
+    </task>
+    <task id="LOCAL-00031" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722500759602</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1722500759602</updated>
+    </task>
+    <task id="LOCAL-00032" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1722657069567</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722657069567</updated>
+    </task>
+    <task id="LOCAL-00033" summary="更新token刷新功能">
+      <option name="closed" value="true" />
+      <created>1724739297681</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1724739297681</updated>
+    </task>
+    <task id="LOCAL-00034" summary="springboot3.3.3更新">
+      <option name="closed" value="true" />
+      <created>1724849290004</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1724849290004</updated>
+    </task>
+    <task id="LOCAL-00035" summary="springboot3.3.3更新">
+      <option name="closed" value="true" />
+      <created>1724850402860</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850402860</updated>
+    </task>
+    <task id="LOCAL-00036" summary="springboot3.3.3更新">
+      <option name="closed" value="true" />
+      <created>1724895840906</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1724895840906</updated>
+    </task>
+    <task id="LOCAL-00037" summary="springboot3.3.3更新">
+      <option name="closed" value="true" />
+      <created>1724899569161</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1724899569161</updated>
+    </task>
+    <task id="LOCAL-00038" summary="springboot3.3.3更新">
+      <option name="closed" value="true" />
+      <created>1724900072552</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1724900072552</updated>
+    </task>
+    <task id="LOCAL-00039" summary="springboot3.3.3更新">
+      <option name="closed" value="true" />
+      <created>1727328537734</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1727328537734</updated>
+    </task>
+    <task id="LOCAL-00040" summary="springboot3.3.4更新">
+      <option name="closed" value="true" />
+      <created>1727328557240</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1727328557240</updated>
+    </task>
+    <task id="LOCAL-00041" summary="springboot3.3.4更新">
+      <option name="closed" value="true" />
+      <created>1730958023470</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1730958023470</updated>
+    </task>
+    <task id="LOCAL-00042" summary="springboot3.3.4更新">
+      <option name="closed" value="true" />
+      <created>1730958314665</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1730958314665</updated>
+    </task>
+    <task id="LOCAL-00043" summary="springboot3.4.0更新">
+      <option name="closed" value="true" />
+      <created>1733447272969</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1733447272969</updated>
+    </task>
+    <task id="LOCAL-00044" summary="springboot3.4.0更新">
+      <option name="closed" value="true" />
+      <created>1733447293056</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1733447293056</updated>
+    </task>
+    <task id="LOCAL-00045" summary="springboot3.4.0更新">
+      <option name="closed" value="true" />
+      <created>1734480636005</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1734480636005</updated>
+    </task>
+    <task id="LOCAL-00046" summary="springboot3.4.0更新">
+      <option name="closed" value="true" />
+      <created>1734620668216</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1734620668216</updated>
+    </task>
+    <task id="LOCAL-00047" summary="springboot3.4.0更新">
+      <option name="closed" value="true" />
+      <created>1734621184096</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1734621184096</updated>
+    </task>
+    <task id="LOCAL-00048" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1736261430034</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1736261430034</updated>
+    </task>
+    <task id="LOCAL-00049" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1736262398151</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1736262398151</updated>
+    </task>
+    <task id="LOCAL-00050" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1736262411787</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1736262411787</updated>
+    </task>
+    <task id="LOCAL-00051" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1736262432397</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736262432397</updated>
+    </task>
+    <task id="LOCAL-00052" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1736432760505</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1736432760505</updated>
+    </task>
+    <task id="LOCAL-00053" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1736432783648</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1736432783648</updated>
+    </task>
+    <task id="LOCAL-00054" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1736437875502</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1736437875502</updated>
+    </task>
+    <task id="LOCAL-00055" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1737392144306</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1737392144306</updated>
+    </task>
+    <task id="LOCAL-00056" summary="springboot3.4.1更新">
+      <option name="closed" value="true" />
+      <created>1738941547578</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1738941547579</updated>
+    </task>
+    <task id="LOCAL-00057" summary="springboot3.4.2更新">
+      <option name="closed" value="true" />
+      <created>1739847342544</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1739847342545</updated>
+    </task>
+    <task id="LOCAL-00058" summary="springboot3.4.4更新">
+      <option name="closed" value="true" />
+      <created>1744331312139</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1744331312140</updated>
+    </task>
+    <task id="LOCAL-00059" summary="springboot3.4.4更新">
+      <option name="closed" value="true" />
+      <created>1744331320659</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1744331320659</updated>
+    </task>
+    <task id="LOCAL-00060" summary="springboot3.4.4更新">
+      <option name="closed" value="true" />
+      <created>1744331377715</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1744331377715</updated>
+    </task>
+    <task id="LOCAL-00061" summary="springboot3.4.4更新">
+      <option name="closed" value="true" />
+      <created>1744331388985</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1744331388985</updated>
+    </task>
+    <task id="LOCAL-00062" summary="springboot3.4.4更新">
+      <option name="closed" value="true" />
+      <created>1745305671625</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1745305671625</updated>
+    </task>
+    <task id="LOCAL-00063" summary="springboot3.4.4更新">
+      <option name="closed" value="true" />
+      <created>1745632670266</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1745632670266</updated>
+    </task>
+    <task id="LOCAL-00064" summary="springboot3.4.5更新">
+      <option name="closed" value="true" />
+      <created>1745633097780</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1745633097780</updated>
+    </task>
+    <task id="LOCAL-00065" summary="springboot3.4.5更新">
+      <option name="closed" value="true" />
+      <created>1745633116157</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1745633116157</updated>
+    </task>
+    <task id="LOCAL-00066" summary="springboot3.4.5更新">
+      <option name="closed" value="true" />
+      <created>1745739926789</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1745739926789</updated>
+    </task>
+    <task id="LOCAL-00067" summary="springboot3.4.5更新">
+      <option name="closed" value="true" />
+      <created>1745744608876</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1745744608876</updated>
+    </task>
+    <task id="LOCAL-00068" summary="springboot3.4.5更新">
+      <option name="closed" value="true" />
+      <created>1745744694562</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1745744694562</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="88b629e1-6116-4a6e-99a1-dfbd3c34ea9a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="88b629e1-6116-4a6e-99a1-dfbd3c34ea9a">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update mybatisplus" />
+    <MESSAGE value="update 3.3.1" />
+    <MESSAGE value="更新token刷新功能" />
+    <MESSAGE value="springboot3.3.3更新" />
+    <MESSAGE value="springboot3.3.4更新" />
+    <MESSAGE value="springboot3.4.0更新" />
+    <MESSAGE value="springboot3.4.1更新" />
+    <MESSAGE value="springboot3.4.2更新" />
+    <MESSAGE value="springboot3.4.4更新" />
+    <MESSAGE value="springboot3.4.5更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot3.4.5更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gomoney-biz/src/main/java/com/cloud/oauth/gomoney/biz/controller/SysOAuthClientDetailsController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gomoney-biz/src/main/java/com/cloud/oauth/gomoney/biz/service/impl/SysUserServiceImpl.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gomoney-biz/src/main/java/com/cloud/oauth/gomoney/biz/controller/SysUserController.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gomoney-biz/src/main/java/com/cloud/oauth/gomoney/biz/controller/SysOAuthClientDetailsController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,129 @@
+server:
+  port: 7777
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs # OpenAPI 文档的路径
+    groups:
+      enabled: true
+  swagger-ui:
+    path: /swagger-ui.html # Swagger UI 的访问路径
+spring:
+  freemarker:
+    cache: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://127.0.0.1:6100
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  #boot:
+  #  admin:
+  #    client:
+  #      url: ${ADMIN_HOST:8.130.38.225}:${ADMIN_POST:9999} #http://gomoney-monitor:8000
+  #      username: admin
+  #      password: admin
+  application:
+    name: gomoney-biz
+  data:
+    redis:
+      password: customer.Management
+      host: 120.76.142.34
+      port: 6379
+      database: 0
+      jedis:
+        pool:
+          max-active: 5000
+          min-idle: 1
+          max-idle: 100
+          max-wait: -1ms
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://127.0.0.1:3306/gomoney_auth?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: cx963951A
+    hikari:
+      # 连接池最大连接数
+      maximum-pool-size: 12
+      # 空闲时保持最小连接数
+      minimum-idle: 5
+      # 空闲连接存活时间
+      idle-timeout: 300000
+      # 连接超时时间
+      connection-timeout: 20000
+      # 测试sql
+      connection-test-query: select 1
+  cloud:
+    #compatibility-verifier:
+    #  enabled: false
+    nacos:
+      discovery:
+        server-addr: ${NACOS_HOST:127.0.0.1}:${NACOS_PORT:8848}
+        #service: ${spring.application.name}
+        metadata:
+          management:
+            context-path: '${server.servlet.context-path}/actuator'
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+      password: nacos
+      username: nacos
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 30000
+            readTimeout: 30000
+            loggerLevel: basic
+  profiles:
+    active: native
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
+logging:
+  level:
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+
+security:
+  oauth2:
+    ignore:
+      urls:
+        - /sys/authentication/**
+        - /v3/api-docs
+
+
+
+#seata:
+#  application-id: ${spring.application.name} #seata应用名
+#  tx-service-group: default
+#  service:
+#    vgroup-mapping:
+#      default: default
+#    grouplist:
+#      default: 127.0.0.1:8091
+#swagger:
+#  enabled: true
+#  title: Gomoney Swagger API
+#  gateway: http://${GATEWAY_HOST:127.0.0.1}:${GATEWAY-PORT:9999}
+#  services:
+#    gomoney-biz: admin
+#    gomoney-workflow: admin

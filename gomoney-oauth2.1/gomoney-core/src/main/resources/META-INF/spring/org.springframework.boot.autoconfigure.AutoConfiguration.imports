@@ -1,0 +1,4 @@
+com.cloud.oauth.gomoney.core.config.WebMVCConfiguration
+com.cloud.oauth.gomoney.core.config.RedisTemplateConfiguration
+com.cloud.oauth.gomoney.core.config.RestTemplateConfiguration
+com.cloud.oauth.gomoney.core.config.JacksonConfiguration

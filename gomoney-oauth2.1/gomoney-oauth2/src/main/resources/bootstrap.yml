@@ -1,0 +1,123 @@
+server:
+  port: 6100
+  #servlet:
+  #  context-path: /gomoney-oauth2
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs # OpenAPI 文档的路径
+    groups:
+      enabled: true
+  swagger-ui:
+    path: /swagger-ui.html # Swagger UI 的访问路径
+    version: 1.0
+spring:
+#  threads:
+#    virtual:
+#      enabled: true
+  freemarker:
+    cache: true
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  #boot:
+  #  admin:
+  #    client:
+  #      url: ${ADMIN_HOST:8.130.38.225}:${ADMIN_POST:9999} #http://gomoney-monitor:8000
+  #      username: admin
+  #      password: admin
+  application:
+    name: gomoney-oauth2
+  data:
+    redis:
+      password: customer.Management
+      host: 120.76.142.34
+      port: 6379
+      database: 0
+      jedis:
+        pool:
+          max-active: 5000
+          min-idle: 1
+          max-idle: 100
+          max-wait: -1ms
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/gomoney_auth?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: cx963951A
+    druid:
+      max-wait: 60000
+      initial-size: 5
+      min-idle: 5
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 'x'
+      max-pool-prepared-statement-per-connection-size: 20
+      #connect-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  cloud:
+    #compatibility-verifier:
+    #`  enabled: false
+    nacos:
+      discovery:
+        server-addr: ${NACOS_HOST:127.0.0.1}:${NACOS_PORT:8848}
+        #service: ${spring.application.name}
+        metadata:
+          management:
+            context-path: '${server.servlet.context-path}/actuator'
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+      username: nacos
+      password: nacos
+    openfeign:
+      client:
+        config:
+          feignName:
+            connectTimeout: 5000
+            readTimeout: 5000
+  profiles:
+    active: native
+  main:
+    allow-bean-definition-overriding: true
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
+logging:
+  level:
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+
+security:
+  oauth2:
+    # 通用放行URL，服务个性化，请在对应配置文件覆盖
+    ignore:
+      urls:
+        - /api-docs
+        - /actuator/**
+#seata:
+#  application-id: ${spring.application.name} #seata应用名
+#  tx-service-group: default # seata默认事务组
+#  # 服务配置
+#  service:
+#    vgroup-mapping:
+#      default: default
+#    grouplist:
+#      default: pig-seata-server:8091
+
+
+

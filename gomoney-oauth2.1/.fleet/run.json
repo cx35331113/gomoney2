@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "spring-boot",
+            "name": "gomoney-oauth2",
+            "mainClass": "com.cloud.oauth.gomoney.OAuthApplication",
+            "module": "gomoney-oauth2",
+        },
+        {
+            "type": "spring-boot",
+            "name": "gomoney-gateway",
+            "mainClass": "com.cloud.oauth.gomoney.gateway.GatewayApplication",
+            "module": "gomoney-gateway",
+        },
+        {
+            "type": "spring-boot",
+            "name": "gomoney-biz",
+            "mainClass": "com.cloud.oauth.gomoney.biz.BizApplication",
+            "module": "gomoney-biz",
+        }
+    ]
+}

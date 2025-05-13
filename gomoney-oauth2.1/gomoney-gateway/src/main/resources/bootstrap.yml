@@ -1,0 +1,134 @@
+server:
+  port: 9999
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+springdoc:
+  api-docs:
+    groups:
+      enabled: true # 开启多服务 API 文档分组
+  swagger-ui:
+    path: /swagger-ui.html
+    urls:
+      - name: gomoney-oauth2
+        url: http://localhost:6100/v3/api-docs
+      - name: gomoney-biz
+        url: http://localhost:7777/v3/api-docs
+spring:
+ # threads:
+ #   virtual:
+ #     enabled: true
+  profiles:
+    active: native
+  #boot:
+  #  admin:
+  #    client:
+  #      url: ${ADMIN_HOST:8.130.38.225}:${ADMIN_POST:9999} #http://gomoney-monitor:8000
+  #      username: admin
+  #      password: admin
+  application:
+    name: gomoney-gateway
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    redis:
+      password: customer.Management
+      host: 120.76.142.34
+      port: 6379
+      database: 0
+      jedis:
+        pool:
+          max-active: 5000
+          min-idle: 1
+          max-idle: 100
+  cloud:
+    #compatibility-verifier:
+    #  enabled: false
+    nacos:
+      discovery:
+        server-addr: ${NACOS_HOST:127.0.0.1}:${NACOS_PORT:8848}
+        watch:
+          enabled: true
+        #service: ${spring.application.name}
+        watch-delay: 1000
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        #timeout: 30000
+      username: nacos
+      password: nacos
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOriginPatterns: "*"
+            allowedHeaders: "*"
+            allow-credentials: true
+            allowedMethods:
+             - GET
+             - POST
+             - DELETE
+             - PUT
+             - OPTIONS
+      routes:
+       - id: gomoney-oauth2
+         uri: lb://127.0.0.1
+         predicates:
+          - Path=/gomoney-oauth2/**
+       - id: gomoney-biz
+         uri: lb://127.0.0.1
+         predicates:
+          - Path=/gomoney-biz/**
+       - id: shop
+         uri: lb://127.0.0.1
+         predicates:
+           - Path=/shop/**
+       - id: takeout
+         uri: lb://127.0.0.1
+         predicates:
+           - Path=/takeout/**
+       #- id: gomoney-ai
+       #  uri: lb://gomoney-ai
+       #  predicates:
+       #    - Path=/gomoney-ai/**
+       #- id: gomoney-workflow
+       #  uri: lb://gomoney-workflow
+       #  predicates:
+       #    - Path=/gomoney-workflow/**
+               #- id: openapi
+         #uri: http://localhost:${server.port}
+         #order: -2 #该路由的优先级最后高于其他微服务的路由
+         #predicates:
+         #  - Path=/gomoney-biz/v3/api-docs/**
+         #filters:
+         #  - RewritePath=/gomoney-biz/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
+       #- id: monitor
+       #  uri: lb://monitor
+       #  predicates:
+       #   - Path=/monitor/**
+         #filters:
+          #- StripPrefix=1
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:1234
+      scg:
+        fallback:
+          mode: response
+          response-status: 426
+          response-body: error request
+      enabled: true
+feign:
+  sentinel:
+    enabled: true
+logging:
+  level:
+    org.springframework.cloud.gateway: debug

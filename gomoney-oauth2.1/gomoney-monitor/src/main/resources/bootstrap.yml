@@ -1,0 +1,68 @@
+server:
+  port: 8000
+spring:
+  boot:
+    admin:
+      notify:
+        mail:
+          to: 35331113@qq.com
+          from: chenxiang_1984@163.com
+  mail:
+    host: smtp.163.com
+    password:
+    username: chenxiang_1984@163.com
+  security:
+    user:
+      name: admin
+      password: admin
+  application:
+    name: monitor
+  redis:
+    password: customer.Management
+    host: 8.130.38.225
+    port: 6379
+    database: 0
+    jedis:
+      pool:
+        max-active: 5000
+        min-idle: 1
+        max-idle: 100
+        max-wait: -1ms
+  cloud:
+    #compatibility-verifier:
+    #  enabled: false
+    nacos:
+      discovery:
+        server-addr: ${NACOS_HOST:127.0.0.1}:${NACOS_PORT:8848}
+        service: ${spring.application.name}
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+  profiles:
+    active: native
+  main:
+    allow-bean-definition-overriding: true
+logging:
+  level:
+    org.springframework.web: INFO
+
+security:
+  oauth2:
+    ignore:
+      urls:
+        - /sys/authentication/**
+        - /v3/api-docs
+
+swagger:
+  enabled: true
+  title: Gomoney Swagger API
+  gateway: http://${GATEWAY_HOST:127.0.0.1}:${GATEWAY-PORT:9999}
+  services:
+    gomoney-biz: admin
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  endpoint:
+#    health:
+#      show-details: ALWAYS

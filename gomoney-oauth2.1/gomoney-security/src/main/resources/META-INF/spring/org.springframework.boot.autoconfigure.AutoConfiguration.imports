@@ -1,0 +1,7 @@
+com.cloud.oauth.gomoney.security.service.impl.PasswordUserDetailsServiceImpl
+com.cloud.oauth.gomoney.security.service.impl.SMSUserDetailsServiceImpl
+com.cloud.oauth.gomoney.security.service.impl.CaptchaServiceImpl
+com.cloud.oauth.gomoney.security.service.impl.UserDetailsServiceImpl
+com.cloud.oauth.gomoney.security.service.impl.GomoneyRedisOAuth2AuthorizationService
+com.cloud.oauth.gomoney.security.service.impl.GomoneyRedisOAuth2AuthorizationConsentService
+com.cloud.oauth.gomoney.security.service.impl.GomoneyRemoteRegisteredClientRepository
